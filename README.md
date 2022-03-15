@@ -5,8 +5,7 @@ Most of the Supercomputers do not have **Divide Units** because one operation of
 The Newton Raphson method provides a solution by this where in the reciprocal of the denominator is calculated using just addition and multiplication. Once the reciprocal is calculated, it is multiplied with the numerator to obtain the final result. 
 
 
-Step 1: Guess an initial value of reciprocal.
-
+Step 1: Guess an initial value of reciprocal. (This has to be updated every time you update N or D value as the program is not programmed to automatically guess nor use a lookup table) You can select the inital value as closer to the actual answer. 
 
 Step 2: Calculate an accurate value using the formula 
 
@@ -17,6 +16,11 @@ Step 3: Run this loop as per the iteration numbers you decide.
 
 Step 4: Multiply the value with Numerator to obtain the final result.
 
+
+
+Simulation in ModelSim:
+
+https://user-images.githubusercontent.com/9052405/158355013-b765decf-cf7b-4f27-96eb-853d6ad7ceab.mp4
 
 
 
